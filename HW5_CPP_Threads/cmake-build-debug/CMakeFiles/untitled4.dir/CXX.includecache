@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/macbook/CLionProjects/HW5_CPP_Threads/main.cpp
+pthread.h
+-
+cstdio
+-
+unistd.h
+-
+cstring
+-
+cstdlib
+-
+
